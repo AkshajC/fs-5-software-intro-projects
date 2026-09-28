@@ -137,10 +137,10 @@ plt.pie() #pie chart
 
 Here is an example with a parquet file: 
 ```python
-import pandas as pd
+import polars as pl
 import matplotlib.pyplot as plt
 
-df = pd.read_parquet('software-data.parquet') #this uses polars to read the file
+df = pl.read_parquet('software-data.parquet') #this uses polars to read the file
 plt.plot(df['Time'], df ['VDM_GPS_SPEED'])
 plt.show()
 ```
