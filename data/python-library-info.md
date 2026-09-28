@@ -2,7 +2,8 @@
 
 1. [Basics of DataFrames](#bodf)
 1. [Finding the data you want](#0)
-1. [Why Polars?](#1)
+1. [Matplotlib](#plt)
+1. [Numpy](#np)
 
 <h2 id="bodf"> Basics of Data Frames </h2>
 
@@ -107,7 +108,7 @@ s.sqrt() # Square Root (Returns a Series)
 s.sample(n = 2, with_replacement = False) # Samples 2 values (Returns a Series)
 ```
 
-# MatPlotLib in FS
+<h2 id="plt"> Matplotlib </h2>
 To display parquet data in a more readable way, we use something called matplotlib. It is another helpful python library that we use in FS. You can either set up data manually, or pull from a given file. Here is an example of what a graph with given data would look like: 
 
 ```python
@@ -146,7 +147,7 @@ plt.show()
 ```
 You can choose which parquet columns to use as your X and Y axis.
 
-# Numpy
+<h2 id="np"> Numpy </h2>
 
 Numpy is the python library used for data analysis and heavier math. It lets you complete common math functions on data sets or arrays. Here is a quick look at how NumPy simplifies math compared to a standard Python list:
 ```python
