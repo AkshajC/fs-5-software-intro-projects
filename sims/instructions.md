@@ -24,7 +24,7 @@ Simulate the driver turning the steering angle from zero degrees ( tires pointin
 
 Slip angle = steer angle - (lateral velocity/forward speed). 
 
-Lateral force = - cornering stiffness * slip angle
+Lateral force =  cornering stiffness * slip angle
 
 Lateral acceleration = lateral force/mass
 
