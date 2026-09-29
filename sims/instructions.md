@@ -11,7 +11,7 @@ Multiply driver input by the maximum motor torque to get command torque (rotatio
 Force at the wheels = (command torque * gear ratio) / radius of the wheels.
 To find acceleration, use the formula Force = mass * acceleration. 
 
-Assume a maximum motor torque of 180 Nm, mass of the car to be 300 kg (with driver), gear ratio to be 3:1, and wheel radius to be 0.216 meters. 
+Assume a maximum motor torque of 180 Nm, mass of the car to be 300 kg (with driver), gear ratio to be 3:1, and wheel radius to be 0.216 meters. Template provided.
 
 
 
