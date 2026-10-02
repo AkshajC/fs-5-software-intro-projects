@@ -82,4 +82,10 @@ Hint: driver input for the first two seconds is 0.0, then it's 1.0 for the rest 
 
 
 **Part Six: Unsimplify**
-Choose one part (or more) and research how to make it more realistic/accurate. More info given in person
+Choose one part (or more) and research how to make it more realistic/accurate. 
+
+**Examples, don't need to do this, just ideas:**
+In part two, lateral force grew infinitely as slip angle grew, but that is not an accurate representation (tires can only deform so much). After a certain point, the tires start to slide. The force the tires can produce is limited by the friction. Calculate maximum grip force (friction coefficient * normal force), and make sure lateral force does not exceed it. Choose an appropriate friction coefficient, play around with it. Also experiment with different steering angles. Think about what different friction coefficients and steer angle do to the lateral force.
+
+Drag is not the only force that slows it down, rolling resistance (wasted heat as the tire constantly moves along the ground) also acts opposite to the car. Calculate rolling resistance, take rolling resistance coefficient as 0.015, and calculate total resistive force (drag + rolling resistance). Re-run part three with both forces, what is different?
+
