@@ -24,19 +24,21 @@ I will generally refer to dataframes as ```df```.
 
 ```python
 path = "FS-3/08102025/08102025Endurance1_FirstHalf.parquet" 
-path2 = "FS-3/08102025/08102025DoesNotExistLol.csv" 
 
 # A little tip for windows vscode users: When you select "copy path" on a file it uses  backslashes which you then have to fix. If you instead just copy as if you were going to copy the entire file, and paste it into the editor, it pastes the path with forward slashes!
 
 # Read files with .read_parquet or .read_csv
 dfa = pl.read_parquet(path)
-dfb = pl.read_csv(path2)
 
 # Stack two dataframes vertically (eg. two parts of the same run) with .vstack
 df = dfa.vstack(dfb)
 
 # Rename your columns
 df.columns = ["altColA", "altColB", . . .]
+
+# Printing your paruqet
+print(path)
+
 ```
 
 ### Slicing
